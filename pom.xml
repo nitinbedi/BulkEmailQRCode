@@ -1,0 +1,108 @@
+public class ProjectionTemp {
+    public User LoggedInUser { get; set; }
+    /*
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.memorynotfound.mail</groupId>
+    <artifactId>mail</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  <!--  <url>http://memorynotfound.com</url>-->
+  <!--  <name>Spring MAIL - ${project.artifactId}</name>-->
+<name>emailBulk</name>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.7.RELEASE</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+			<version>3.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+			<version>1.9.3</version>
+            </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+        	<version>3.17</version>
+			</dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+			<plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>             
+            <configuration>    
+                <mainClass>com.memorynotfound.mail.Application</mainClass>
+				<addResources>true</addResources>
+            </configuration>
+			</plugin>
+				<plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+			
+			
+        </plugins>
+    </build>
+
+</project>
+
+<!--
+mvn clean compile assembly:single
+
+mvn clean install -U
+
+mvn spring-boot:run>log.log
+
+define
+ColumnType	ColumnName	Extension	FontColor	FontName	FontSize	FontType	Scale	Border	X	Y	width	height	size	ImageName
+text	Name	png	BLUE	Harrington	10	1			30	25				
+mail	mail.employee													
+mail	mail.kavita													
+mail	mail.amar													
+data
+Name	mail.employee	mail.kavita	mail.amar
+Nitin	nitin.bedi@barclays.com		
+
+ColumnType	ColumnName	Extension	FontColor	FontName	FontSize	FontType	Scale	Border	X	Y	width	height	size	ImageName
+text	Name	png	BLUE	Harrington	10	1			30	25				
+image.merge	image.png	png												
+qrcode.merge	qrcode.value	png					5	1	277	305				
+mail	mail.employee													
+attach	attach.field													
+qrcode	qrcode.sec	png					5	1	100	100				
+
+
+
+Name	mail.employee	qrcode.value	image.png	qrcode.sec
+Nitin	nitin.bedi@barclays.com	How are you!	image001	I am doing goo
+
+-->
+*/
+}
